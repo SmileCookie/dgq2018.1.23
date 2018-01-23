@@ -1,0 +1,44 @@
+[
+{"id":0,"img":"../images/1.png","name":"电视","images":[
+    {"pid":0,"bg":"../images/11.png"},
+    {"pid":1,"bg":"../images/12.png"},
+    {"pid":2,"bg":"../images/13.png"},
+    {"pid":3,"bg":"../images/14.png"}
+]},
+{"id":1,"img":"../images/2.png","name":"冰箱","images":[
+    {"pid":0,"bg":"../images/21.png"},
+    {"pid":1,"bg":"../images/22.png"},
+    {"pid":2,"bg":"../images/23.png"}
+]},
+{"id":2,"img":"../images/3.png","name":"洗衣机","images":[
+    {"pid":0,"bg":"../images/31.png"},
+    {"pid":1,"bg":"../images/32.png"},
+    {"pid":2,"bg":"../images/33.png"}
+]},
+{"id":3,"img":"../images/4.png","name":"手机","images":[
+    {"pid":0,"bg":"../images/41.png"},
+    {"pid":1,"bg":"../images/42.png"},
+    {"pid":2,"bg":"../images/43.png"},
+    {"pid":3,"bg":"../images/44.png"}
+]},
+{"id":4,"img":"../images/5.png","name":"生活电器","images":[
+    {"pid":0,"bg":"../images/51.png"},
+    {"pid":1,"bg":"../images/52.png"},
+    {"pid":2,"bg":"../images/53.png"},
+    {"pid":3,"bg":"../images/54.png"},
+    {"pid":4,"bg":"../images/55.png"},
+    {"pid":5,"bg":"../images/56.png"}
+]},
+{"id":5,"img":"../images/6.png","name":"智能硬件","images":[
+    {"pid":0,"bg":"../images/61.png"},
+    {"pid":1,"bg":"../images/62.png"},
+    {"pid":2,"bg":"../images/63.png"},
+    {"pid":3,"bg":"../images/64.png"},
+    {"pid":4,"bg":"../images/65.png"}
+]},
+{"id":6,"img":"../images/7.png","name":"配件","images":[
+    {"pid":0,"bg":"../images/71.png"},
+    {"pid":1,"bg":"../images/72.png"},
+    {"pid":2,"bg":"../images/73.png"},
+    {"pid":3,"bg":"../images/74.png"}
+]}]

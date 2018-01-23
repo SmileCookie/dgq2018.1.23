@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{background:#f5f5f5;}
+li{list-style:none}
+a{text-decoration: none;}
+header,.nav,footer,.konka_bottom,.foot_img{margin: 0 auto; width:1202px;}
+/* header */
+.header_bg{
+    background:#313131;
+}
+header{
+    height: 40px;
+    .left{
+        float: left;
+        height: 40px;
+        ul{
+            width: 120px;
+            li{
+                float: left;
+                height: 20px;
+                border-right: 1px solid #414141;
+                width: 32px;
+                margin-top: 8px;
+                cursor: pointer;
+                img{
+                    display: block;
+                    margin-top: 4px;
+                }
+            }
+            li:nth-of-type(2){
+                background:url(../images/header/iconfont-weixin.png) no-repeat center;
+                position: relative;
+                &:hover{
+                    .ewm{
+                        display: block;
+                    }
+                }
+                .ewm{
+                    position:absolute;
+                    top: 28px;
+                    left:-30px;
+                    display: none;
+                    img{
+                        display: block;
+                        width: 107px;
+                        height: 107px;
+                    }
+                }
+            }
+            li:nth-of-type(3){
+                margin-left: 9px;
+                border-right:none;
+            }
+        }
+    }
+    .right{
+        float: right;
+        ul{
+            height: 16px;
+            margin-right: 56px;
+            margin-top: 11px;
+            li{
+                float: left;
+                padding:0 6px;
+                height: 16px;
+                border-right:1px solid #5f5f5f;
+                text-align: center;
+                line-height: 16px;
+                a{
+                    display: block;
+                    color: #bbb;
+                    font-size:12px;
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+            .user{
+                background:url(../images/header/iconfont-yonghu.png) no-repeat 0 -5px ;
+                width: 20px;
+                position:relative;
+
+                ul{
+                    width: 180px;
+                    height: 100px;
+                    position:absolute;
+                    top:18px;
+                    left:-60px;
+                    border:1px solid #bbb;
+                    display: none;
+                    position:relative;
+                    z-index: 10;
+                    background:white;
+                    li{
+                        clear: both;
+                        height: 30px;
+                        width: 120px;
+                        border-right:none;
+                        border-bottom:1px solid #bbb;
+                        margin: 10px 20px 0 20px;
+                        text-indent: 12px;
+                        a{
+                            color: #bbb;
+                            font-size:18px;
+                            line-height: 30px;
+                            cursor: pointer;
+                            &:hover{
+                                color: red;
+                            }
+                        }
+                    }
+                    li:first-child{
+                        background:url(../images/header/login.png) no-repeat left;
+                        background-size:contain;
+                    }
+                    li:last-child{
+                        background:url(../images/header/regist.png) no-repeat left;
+                        background-size:contain;
+                    }
+                }
+            }
+        }
+    }
+}
+/* nav */
+.nav_bg{background:white;}
+.nav{
+    overflow: hidden;
+    .logo{
+        float: left;
+        img{
+            display: block;
+        }
+    }
+    ul{
+        float: left;
+        margin-left: 20px;
+        li{
+            float: left;
+            font-size: 14px;
+            padding:35px 20px;
+            a{
+                color: #bbb;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+    .search{
+        float: left;
+        width: 220px;
+        height: 42px;
+        position:relative;
+        margin-top:22px;
+        a{
+            display: block;
+            position: absolute;
+            background:#eee;
+            width: 38px;
+            height: 20px;
+            font-size: 12px;
+            color:#757575;
+            top:15px;
+            left:114px;
+            text-align: center;
+            line-height: 20px;
+            &:hover{
+                color: red;
+            }
+        }
+        .search_text{
+            width: 170px;
+        height: 40px;
+        outline: none;
+        border:1px solid #eee;
+        float: left;
+        }
+        .search_btn{
+            width: 40px;
+            height: 42px;
+            cursor: pointer;
+            outline: none;
+            border:1px solid #eee;
+            border-left:none;
+            float: left;
+            background:url(../images/header/search.png) no-repeat center;
+        }
+    }
+    .shopcar{
+        margin-top:22px;
+        float: right;
+        width:114px;
+        height: 40px;
+        border:1px solid #eee;
+        text-align:center;
+        line-height: 40px;
+        img{
+            vertical-align: middle;
+        }
+        span{
+            font-weight: 600;
+            margin:0 5px;
+        }
+    }
+}
+
+/*
+footer
+ */
+ .footer_bg{background:white;}
+ footer{
+    overflow: hidden;
+    padding-bottom: 130px;
+    .top{
+        border-bottom:1px solid #e5e5e5;
+        overflow: hidden;
+        ul{
+            li{
+                float: left;
+                width: 240px;
+                height: 100px;
+                p{
+                    color: #999999;
+                    line-height: 25px;
+                    margin-left: 50px;
+
+                }
+                p:nth-of-type(1){
+                    font-size: 16px;margin-top:30px;
+                }
+                p:nth-of-type(2){
+                    font-size: 12px;
+                }
+            }
+            li:nth-of-type(1){
+                background:url(../images/package.png) no-repeat;
+            }
+            li:nth-of-type(2){
+                background:url(../images/quality.png) no-repeat -60px center;
+            }
+            li:nth-of-type(3){
+                background:url(../images/interest.png) no-repeat -75px center;
+            }
+            li:nth-of-type(4){
+                background:url(../images/service.png) no-repeat -56px center;
+            }
+            li:nth-of-type(5){
+                background:url(../images/surprise.png) no-repeat -51px center;
+            }
+        }
+    }
+    .bottom{
+        overflow: hidden;
+        ul{
+            float: left;
+            margin-left:96px;
+            li{
+                font-size: 12px;
+                line-height: 35px;
+
+                a{
+                    color: #666666;
+                    &:hover{
+                        color:red;
+                    }
+                }
+            }
+            li:nth-of-type(1){
+                margin-top: 40px;
+                margin-bottom: 12px;
+                font-size: 16px;
+            }
+        }
+        ul:nth-of-type(1){
+            margin-left:0;
+        }
+        .right{
+            margin-left:60px;
+            float: left;
+            margin-top:40px;
+            height:98px;
+            width: 215px;
+            border-left:1px solid #e5e5e5;
+            text-align: center;
+            p:nth-of-type(1){
+                color:#666666;
+                font-size: 12px;
+                line-height: 22px;
+            }
+            p:nth-of-type(2){
+                color: #ff5d59;
+                font-size: 20px;
+                line-height:44px;
+            }
+            .qq{
+                width: 116px;
+                height: 30px;
+                border:1px solid #ff5d59;
+                margin-left:60px;
+                a{
+                    display: block;
+                    font-size: 12px;
+                    color:#ff5d59;
+                    line-height: 30px;
+                    img{
+                        vertical-align: middle;
+
+                        margin-right: 10px;
+                    }
+
+                }
+            }
+
+        }
+    }
+ }
+ /* konka_bottom 底部
+
+  */
+  .konka_bg{background:#313131;}
+  .konka_bottom{
+        height: 105px;
+        overflow: hidden;
+        .left{
+            float: left;
+            margin-top: 50px;
+            img{
+                display: block;
+            }
+        }
+        .right{
+            float: right;
+            ul{
+               margin-top:46px;
+                li{
+                    float: left;
+                    color: #666666;
+                    font-size: 12px;
+                    height: 13px;
+                    border-left:1px solid #666666;
+                    line-height: 13px;
+                    a{
+                        color:#666666;
+                        text-align: center;
+                        margin: 0 5px;
+                        &:hover{
+                            color: white;
+                        }
+                    }
+
+                }
+                li:nth-of-type(1){
+                    margin-right: 5px;
+                }
+            }
+        }
+  }
+  /*
+    foot
+   */
+.foot{
+    overflow:hidden;
+    .foot_img{
+        margin-left:500px;
+        margin-top:33px;
+        a{
+            display: block;
+            float: left;
+            img{
+                display: block;
+            }
+        }
+    }
+}
+/*
+    右边固定菜单
+ */
+.fixed_menu{
+    ul{
+        width: 100px;
+        height: 300px;
+        position:fixed;
+        right: -27px;
+        margin-top:-220px;
+        top:50%;
+        z-index: 20;
+        li{
+            overflow: hidden;
+            width: 63px;
+            height: 63px;
+            margin-bottom: 10px;
+            background: #ff3b2f;
+            text-align: center;
+            font-size:12px;
+            color: white;
+            cursor: pointer;
+            border-radius:10px/10px;
+            img{
+                display: block;
+                margin-left:13px;
+                padding-top:8px;
+                margin-bottom: 5px;
+            }
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+
